@@ -1,0 +1,11 @@
+.mat-elevation-z8 {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "filter" "table" "paginator";
+}
+
+.filter-container {
+  grid-area: filter;
+  justify-self: center;
+  align-self: center;
+}

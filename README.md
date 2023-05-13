@@ -1,3 +1,11 @@
+# About me
+
+Hi, my name is Rodrigo Lopez Takahashi. I'm a software engineering student at UPC, and this work is for the midterm exam of Open Source Application Development.
+
+# To run the json server
+
+Enter the folder server `cd server`. Then run `json-server --watch db.json --routes routes.json`
+
 # Upc2301si729eau201615003
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.

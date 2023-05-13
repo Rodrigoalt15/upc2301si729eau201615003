@@ -1,0 +1,18 @@
+<ng-container *ngIf="winner; else noWinner">
+    <mat-card role="region" aria-labelledby="marathon-winner-title">
+        <mat-card-header>
+            <mat-card-title id="marathon-winner-title">Marathon Winner</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image [src]="winner.photoUrl" alt="{{winner.firstName}} {{winner.lastName}}"
+            aria-describedby="winner-name winner-record-time winner-center">
+        <mat-card-content>
+            <p id="winner-name">Name: {{winner.firstName}} {{winner.lastName}}</p>
+            <p id="winner-record-time">Record Time: {{winner.recordTime}}</p>
+            <p id="winner-center">Marathon Center: {{winner.centerName}}</p>
+        </mat-card-content>
+    </mat-card>
+</ng-container>
+
+<ng-template #noWinner>
+    <p id="no-winner-message" tabindex="0">No winner data available.</p>
+</ng-template>

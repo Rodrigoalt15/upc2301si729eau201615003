@@ -1,0 +1,12 @@
+.space {
+  flex: 1 1 auto;
+}
+
+mat-toolbar {
+  background-color: black;
+  color: white;
+}
+
+mat-toolbar span {
+  color: #f4e116;
+}
